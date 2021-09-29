@@ -1,0 +1,40 @@
+@import "vars";
+.blog {
+    &__title {
+        font-family: $main-font;
+        color: $accent;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: capitalize;
+    }
+    &__designer {
+        font-family: $main-font;
+        color: $dark;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+    }
+    &__text {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #9A9A9A;
+    }
+    &__btn {
+        width: 144px;
+        height: 30px;
+        border: 2px solid $dark;
+        padding: 0px 10px 0px 10px;
+        float: left;
+    }
+    .card {
+        border: none;
+    }
+}
